@@ -1,0 +1,2 @@
+# Floating Static Route Network Design
+This is a network project which contains two LANs and three routers. The LANs are connected through routers. There are two routes from one LAN to another. Therefore one route is used as active or primary route while the other is used as backup route. The **Administrative Distance** of primary route is less than backup route. if primary route fails, then backup route will be activated to carry the traffic. In this way, the network does not shut down if one route fails.
